@@ -1,0 +1,90 @@
+.header{
+    margin: 0 30px;
+    min-height: 112px;
+    width: 100%;
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    &__wrapper{
+        position: fixed;
+        background: rgba(25, 25, 25, 0.4);
+        min-height: 112px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        z-index: 10;
+    }
+    &__logo{
+        font-family: 'Bigshot One', cursive;
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+    &__menu{
+        width: 47%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        &_item{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            width: 14%;
+            height: 32px;
+            &-link{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 16px;
+                color: rgb(255, 255, 255);
+            }
+        }
+        &_item:hover{
+            border:1px solid white; 
+            border-radius: 16px;
+        }
+        &_item:hover &_item-link{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+.carousel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    &-item{
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        min-height: 736px; 
+    }
+    &-caption{
+        top: 300px;
+        &-name{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 35px;
+            color: rgb(255, 255, 255);
+        }
+        &-pr{
+            font-size: 16px;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: rgb(255, 255, 255);
+        }
+    }
+
+}
