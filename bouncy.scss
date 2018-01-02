@@ -1,14 +1,14 @@
-.header{
+.header {
     margin: 0 30px;
     min-height: 112px;
     width: 100%;
     display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        align-content: center;
-    &__wrapper{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    &__wrapper {
         position: fixed;
         background: rgba(25, 25, 25, 0.4);
         min-height: 112px;
@@ -21,13 +21,13 @@
         align-content: center;
         z-index: 10;
     }
-    &__logo{
+    &__logo {
         font-family: 'Bigshot One', cursive;
         font-size: 25px;
         color: rgb(255, 255, 255);
         font-weight: bold;
     }
-    &__menu{
+    &__menu {
         width: 47%;
         display: flex;
         flex-direction: row;
@@ -35,7 +35,7 @@
         justify-content: space-between;
         align-items: center;
         align-content: center;
-        &_item{
+        &_item {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -44,60 +44,61 @@
             align-content: center;
             width: 14%;
             height: 32px;
-            &-link{
+            &-link {
                 font-family: 'Open Sans', sans-serif;
                 font-size: 16px;
                 color: rgb(255, 255, 255);
             }
         }
-        &_item:hover{
-            border:1px solid white; 
+        &_item:hover {
+            border: 1px solid white;
             border-radius: 16px;
         }
-        &_item:hover &_item-link{
+        &_item:hover &_item-link {
             text-decoration: none;
             color: white;
         }
     }
 }
-.carousel{
+
+.carousel {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
-    &-item{
+    &-item {
         background-position: center;
         background-size: cover;
         width: 100%;
-        min-height: 736px; 
+        min-height: 736px;
     }
-    &-caption{
+    &-caption {
         top: 300px;
-        &-name{
+        &-name {
             font-family: 'Source Sans Pro', sans-serif;
             font-size: 35px;
             color: rgb(255, 255, 255);
         }
-        &-pr{
+        &-pr {
             font-size: 16px;
             font-family: 'Source Sans Pro', sans-serif;
             color: rgb(255, 255, 255);
         }
     }
-
 }
-.aboutus{
+
+.aboutus {
     display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        width: 100%;
-        min-height: 450px;
-    &__wrapper{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    min-height: 450px;
+    &__wrapper {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -107,15 +108,15 @@
         width: 100%;
         min-height: 450px;
     }
-    &__text{
+    &__text {
         width: 43%;
-        &_name{
+        &_name {
             font-family: 'Source Sans Pro', sans-serif;
             font-size: 20px;
             color: rgb(51, 59, 70);
             font-weight: bold;
         }
-        &_pr{
+        &_pr {
             padding-top: 50px;
             padding-bottom: 35px;
             font-size: 14px;
@@ -123,8 +124,8 @@
             color: rgb(129, 134, 142);
             font-weight: bold;
         }
-        &_form{
-            &-button{
+        &_form {
+            &-button {
                 background: white;
                 min-width: 140px;
                 height: 37px;
@@ -137,11 +138,12 @@
             }
         }
     }
-    &__phone{
+    &__phone {
         margin-left: 50px;
     }
 }
-.details{
+
+.details {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -150,7 +152,7 @@
     align-content: center;
     min-height: 615px;
     width: 100%;
-    &__wrapper{
+    &__wrapper {
         background: rgb(243, 243, 243);
         display: flex;
         flex-direction: row;
@@ -161,28 +163,28 @@
         min-height: 615px;
         width: 100%;
     }
-    &__title{
+    &__title {
         text-align: center;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        align-content: center; 
+        align-content: center;
         min-height: 100px;
         width: 450px;
-        &_name{
+        &_name {
             font-size: 20px;
             font-family: "SourceSansPro";
             color: rgb(51, 59, 70);
         }
-        &_pr{
+        &_pr {
             font-size: 14px;
             font-family: "SourceSansPro";
             color: rgb(129, 134, 142);
         }
     }
-    &__icon{
+    &__icon {
         width: 210px;
         display: flex;
         flex-direction: row;
@@ -190,32 +192,32 @@
         justify-content: space-between;
         align-items: center;
         align-content: center;
-        &_heart{
+        &_heart {
             background: url('heart.png') no-repeat;
             width: 53px;
             height: 53px;
         }
-        &_mouse{
+        &_mouse {
             background: url('mouse.png') no-repeat;
             width: 53px;
             height: 53px;
         }
-        &_lump{
+        &_lump {
             background: url('lump.png') no-repeat;
             width: 53px;
             height: 53px;
         }
-        &_heart:hover{
+        &_heart:hover {
             background: url('hearthover.png') no-repeat;
         }
-        &_mouse:hover{
+        &_mouse:hover {
             background: url('mousehover.png') no-repeat;
         }
-        &_lump:hover{
+        &_lump:hover {
             background: url('lumphover.png') no-repeat;
         }
     }
-    &__text{
+    &__text {
         min-height: 170px;
         width: 85%;
         display: flex;
@@ -224,33 +226,33 @@
         justify-content: space-between;
         align-items: flex-start;
         align-content: flex-start;
-        &_item{
-            &-caption{
+        &_item {
+            &-caption {
                 min-height: 30px;
                 font-size: 20px;
                 font-family: "SourceSansPro";
                 color: rgb(70, 70, 70);
             }
-            &-paragraph{
+            &-paragraph {
                 margin-top: 30px;
                 font-size: 16px;
                 font-family: "SourceSansPro";
                 color: rgb(129, 134, 142);
             }
-            &-paragraph:nth-child(2){
+            &-paragraph:nth-child(2) {
                 margin-top: 30px;
             }
         }
-        &_item:nth-child(1){
-            
+        &_item:nth-child(1) {
             width: 33%;
         }
-        &_item:nth-child(2){
+        &_item:nth-child(2) {
             width: 55%;
         }
     }
 }
-.projects{
+
+.projects {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -259,7 +261,7 @@
     align-content: center;
     min-height: 560px;
     width: 100%;
-    &__wrapper{
+    &__wrapper {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -269,62 +271,70 @@
         min-height: 560px;
         width: 100%;
     }
-    &__title{
+    &__title {
         text-align: center;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        align-content: center; 
+        align-content: center;
         min-height: 100px;
         width: 450px;
-        &_name{
+        &_name {
             font-size: 20px;
             font-family: "SourceSansPro";
             color: rgb(51, 59, 70);
         }
-        &_pr{
+        &_pr {
             font-size: 14px;
             font-family: "SourceSansPro";
             color: rgb(129, 134, 142);
         }
     }
-    &__featured{
-        margin-top:60px;
-        min-height: 320px;
+    &__featured {
+        margin-top: 60px;
+        min-height: 319px;
         width: 100%;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
-        align-content: flex-start;
-        &_item:nth-child(1){
-            
-            width: 50%;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        &_item:nth-child(1) {
+            background: url('whisky.jpg') no-repeat;
+            width: 701px;
+            height: 319px;
         }
-        &_item:nth-child(2),
-        &_item:nth-child(3){
-            width: 25%;
+        &_item:nth-child(2) {
+            background: url('whisky2.jpg') no-repeat;
+            width: 336px;
+            height: 319px;
         }
-        &_item:hover{
+        &_item:nth-child(3) {
+            background: url('whisky3.jpg') no-repeat;
+            width: 316px;
+            height: 319px;
+        }
+        &_item:hover {
             filter: grayscale(100%) brightness(34%) contrast(94%);
             -webkit-filter: grayscale(100%) brightness(34%) contrast(94%);
         }
     }
 }
-.fold{
+
+.fold {
     margin: 0 30px;
     width: 80%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: center;
-        align-content: center;
-        min-height: 115px;
-    &__wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    min-height: 115px;
+    &__wrapper {
         background: url('shoots.jpg') no-repeat;
         background-position: center;
         background-size: cover;
@@ -337,14 +347,14 @@
         align-content: center;
         min-height: 115px;
     }
-    &__text{
+    &__text {
         font-size: 20px;
-            font-family: "OpenSans";
-            color: rgb(255, 255, 255);
+        font-family: "OpenSans";
+        color: rgb(255, 255, 255);
     }
-    &__form{
+    &__form {
         margin-left: 40px;
-        &_button{
+        &_button {
             background: none;
             min-width: 140px;
             height: 37px;
@@ -353,72 +363,73 @@
             color: white;
             border: 1px solid white;
             border-radius: 16px;
-            cursor: pointer;  
+            cursor: pointer;
         }
     }
 }
-.services{
+
+.services {
     min-height: 640px;
     width: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        align-content: center;
-    &__wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    &__wrapper {
         width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        align-content: center;  
+        align-content: center;
         min-height: 640px;
     }
-    &__title{
+    &__title {
         text-align: center;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        align-content: center; 
+        align-content: center;
         min-height: 100px;
         width: 450px;
-        &_name{
+        &_name {
             font-size: 20px;
             font-family: "SourceSansPro";
             color: rgb(51, 59, 70);
         }
-        &_pr{
+        &_pr {
             font-size: 14px;
             font-family: "SourceSansPro";
             color: rgb(129, 134, 142);
         }
     }
-    &__menu{
+    &__menu {
         width: 80%;
         min-height: 300px;
     }
-    &__menu .row{
+    &__menu .row {
         width: 100%;
         min-height: 300px;
     }
-    &__menu .col-4{
+    &__menu .col-4 {
         width: 53px !important;
         min-height: 300px;
     }
-    &__menu .col-123{
-        margin-left:10px;
+    &__menu .col-123 {
+        margin-left: 10px;
         width: 900px;
         min-height: 300px;
     }
-    &__menu .tab-content{
+    &__menu .tab-content {
         width: 900px;
         height: 300px;
     }
-    &__menu .tab-pane .fade{
+    &__menu .tab-pane .fade {
         width: 900px;
         height: 300px;
         display: flex;
@@ -427,9 +438,8 @@
         justify-content: flex-start;
         align-items: flex-start;
         align-content: flex-start;
-        
     }
-    &__menu .tab-pane-text{
+    &__menu .tab-pane-text {
         width: 900px;
         height: 300px;
         display: flex;
@@ -438,22 +448,20 @@
         justify-content: space-between;
         align-items: flex-start;
         align-content: flex-start;
-        
     }
-    &__menu .tab-pane-text-name{
+    &__menu .tab-pane-text-name {
         font-size: 20px;
         font-family: "SourceSansPro";
         color: rgb(51, 59, 70);
         width: 400px;
     }
-    &__menu .tab-pane-text-pr{
+    &__menu .tab-pane-text-pr {
         font-size: 16px;
         font-family: "OpenSans";
         color: rgb(129, 134, 142);
         width: 400px;
-       
     }
-    &__menu .tab-pane-text-listen{
+    &__menu .tab-pane-text-listen {
         width: 500px;
         height: 300px;
         display: flex;
@@ -461,16 +469,16 @@
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
-        align-content: center; 
+        align-content: center;
     }
-    &__menu .tab-pane-text-listen-circle-caption{
+    &__menu .tab-pane-text-listen-circle-caption {
         padding-top: 15px;
         text-align: center;
         font-size: 16px;
         font-family: "Roboto";
         color: rgb(129, 134, 142);
     }
-    &__menu .list-group{
+    &__menu .list-group {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -480,69 +488,68 @@
         max-width: 10%;
         min-height: 300px;
     }
-    &__menu .list-group-item{
+    &__menu .list-group-item {
         background: url('screwdriver.png') no-repeat;
         height: 53px;
         width: 53px;
         border: none;
     }
-    &__menu .list-group-item:nth-child(2){
+    &__menu .list-group-item:nth-child(2) {
         background: url('build.png') no-repeat;
         height: 53px;
         width: 53px;
         border: none;
     }
-    &__menu .list-group-item:nth-child(3){
+    &__menu .list-group-item:nth-child(3) {
         background: url('game.png') no-repeat;
         height: 53px;
         width: 53px;
         border: none;
     }
-    &__menu .list-group-item:nth-child(4){
+    &__menu .list-group-item:nth-child(4) {
         background: url('socket.png') no-repeat;
         height: 53px;
         width: 53px;
         border: none;
     }
-    
-    &__menu .list-group-item.active{
+    &__menu .list-group-item.active {
         background: url('screwdriverhover.png') no-repeat;
         height: 53px;
         width: 53px;
         border: none;
     }
-    &__menu .list-group-item.active:nth-child(2){
+    &__menu .list-group-item.active:nth-child(2) {
         background: url('buildhover.png') no-repeat;
         height: 53px;
         width: 53px;
         border: none;
     }
-    &__menu .list-group-item.active:nth-child(3){
+    &__menu .list-group-item.active:nth-child(3) {
         background: url('gamehover.png') no-repeat;
         height: 53px;
         width: 53px;
         border: none;
     }
-    &__menu .list-group-item.active:nth-child(4){
+    &__menu .list-group-item.active:nth-child(4) {
         background: url('sockethover.png') no-repeat;
         height: 53px;
         width: 53px;
         border: none;
     }
-
 }
-.quotes{
+
+.quotes {
     position: relative;
     margin: 0 30px;
     min-height: 392px;
     width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        align-content: center; 
-    &__wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    &__wrapper {
         background: url('quotes.jpg') no-repeat;
         background-position: center;
         background-size: cover;
@@ -553,39 +560,39 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        align-content: center; 
+        align-content: center;
     }
-    &__text{
+    &__text {
         width: 51%;
-        &_caption{
+        &_caption {
             font-size: 20px;
             font-family: "SourceSansPro";
             color: rgb(243, 243, 243);
         }
-        &_about{
+        &_about {
             margin-top: 50px;
             margin-bottom: 30px;
             font-size: 16px;
             font-family: "OpenSans";
-            color: rgb(178, 179, 179);  
+            color: rgb(178, 179, 179);
             width: 81%;
         }
-        &_name{
+        &_name {
             font-size: 14px;
             font-family: "OpenSans";
             color: rgb(178, 179, 179);
             font-weight: bold;
         }
-        &_profesion{
+        &_profesion {
             font-size: 14px;
             font-family: "OpenSans";
             color: rgb(178, 179, 179);
         }
-        &_profesion span{
+        &_profesion span {
             color: rgb(26, 168, 138);
         }
     }
-    &__photo{
+    &__photo {
         background: url('apple.png') no-repeat;
         width: 409px;
         min-height: 340px;
@@ -594,16 +601,17 @@
         position: absolute;
     }
 }
-.portfolio{
+
+.portfolio {
     min-height: 1635px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        align-content: center; 
-    &__wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    &__wrapper {
         background: rgb(243, 243, 243);
         min-height: 1635px;
         width: 100%;
@@ -612,51 +620,49 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        align-content: center; 
+        align-content: center;
     }
-    &__title{
+    &__title {
         text-align: center;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        align-content: center; 
+        align-content: center;
         min-height: 100px;
         width: 450px;
-        &_name{
+        &_name {
             font-size: 20px;
             font-family: "SourceSansPro";
             color: rgb(51, 59, 70);
         }
-        &_pr{
+        &_pr {
             font-size: 14px;
             font-family: "SourceSansPro";
             color: rgb(129, 134, 142);
         }
     }
-    &__menu{
+    &__menu {
         width: 42%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        align-content: center;  
-        &_item a{
+        align-content: center;
+        &_item a {
             text-decoration: none;
             font-size: 16px;
             font-family: "OpenSans";
             color: rgb(70, 70, 70);
-          
         }
-        &_item:hover{
+        &_item:hover {
             border-bottom: 2px solid rgb(25, 189, 154);
             font-weight: bold;
         }
-
     }
-    &__gallery{
+    &__gallery {
         width: 1112px;
         height: 950px;
         display: flex;
@@ -665,118 +671,689 @@
         justify-content: space-between;
         align-items: flex-start;
         align-content: space-between;
-        &_image{
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            &_text{
-                background: transparent;
-                min-height: 60%;
+        &_image {
+            width: 100%;
+            height: 100%;
+            &_background {
+                z-index: 2;
+                width: 100%;
+                height: 100%;
                 display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: flex-start;
-            align-content: flex-start;
-                opacity: 0;
-                filter: none;
-                padding: 0 40px;
-                &-name{
-                    filter: none;
-                    -webkit-filter:none;
-                    
-                    font-size: 20px;
-                    font-family: "SourceSansPro";
-                    color: rgb(25, 189, 154);
-                }
-                &-line{
-                   
-                    border: 1px solid rgb(25, 189, 154);
-                    width: 23px;
-                }
-                &-pr{
-                    
-                    font-size: 12px;
-                    font-family: "OpenSans";
-                    color: rgb(178, 179, 179);
-                    transition: all 0.2s linear;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                &_text {
+                    z-index: 10;
+                    min-height: 60%;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    align-content: flex-start;
+                    opacity: 0;
+                    padding: 0 40px;
+                    &-name {
+                        filter: none;
+                        -webkit-filter: none;
+                        font-size: 20px;
+                        font-family: "SourceSansPro";
+                        color: rgb(25, 189, 154);
+                    }
+                    &-line {
+                        border: 1px solid rgb(25, 189, 154);
+                        width: 23px;
+                    }
+                    &-pr {
+                        font-size: 12px;
+                        font-family: "OpenSans";
+                        color: rgb(178, 179, 179);
+                        transition: all 0.2s linear;
+                    }
                 }
             }
-            
         }
-        &_image:hover &_image_text{
+        &_image:hover &_image_background {
+            background: rgba(25, 25, 25, 0.9);
+        }
+        &_image:hover &_image_background_text {
             opacity: 1;
-    
         }
-        &_image:nth-child(1){
+        &_image:nth-child(1) {
             background: url('image1.jpg') no-repeat;
             width: 270px;
             height: 361px;
-        } 
-        &_image:nth-child(4){
+        }
+        &_image:nth-child(4) {
             background: url('image2.jpg') no-repeat;
             width: 270px;
             height: 229px;
-        } 
-        &_image:nth-child(7){
+        }
+        &_image:nth-child(7) {
             background: url('image3.jpg') no-repeat;
-            width:270px ;
+            width: 270px;
             height: 301px;
-        } 
-        &_image:nth-child(10){
+        }
+        &_image:nth-child(10) {
             background: url('image4.jpg') no-repeat;
-            width:270px;
+            width: 270px;
             height: 361px;
-        } 
-        &_image:nth-child(2){
+        }
+        &_image:nth-child(2) {
             background: url('image5.jpg') no-repeat;
-            width:270px  ;
+            width: 270px;
             height: 361px;
-        } 
-        &_image:nth-child(5){
+        }
+        &_image:nth-child(5) {
             background: url('image6.jpg') no-repeat;
-            width:270px;
+            width: 270px;
             height: 344px;
             align-self: flex-start;
-        } 
-        &_image:nth-child(8){
+        }
+        &_image:nth-child(8) {
             background: url('image7.jpg') no-repeat;
-            width:270px ;
+            width: 270px;
             height: 374px;
-        } 
-        &_image:nth-child(11){
+        }
+        &_image:nth-child(11) {
             background: url('image8.jpg') no-repeat;
             width: 270px;
             height: 269px;
-        } 
-        &_image:nth-child(3){
+        }
+        &_image:nth-child(3) {
             background: url('image9.jpg') no-repeat;
             width: 270px;
             height: 209px;
-        } 
-        &_image:nth-child(6){
+        }
+        &_image:nth-child(6) {
             background: url('image10.jpg') no-repeat;
             width: 270px;
             height: 357px;
-        } 
-        &_image:nth-child(9){
+        }
+        &_image:nth-child(9) {
             background: url('image11.jpg') no-repeat;
             width: 270px;
             height: 255px;
-        } 
-        &_image:nth-child(12){
+        }
+        &_image:nth-child(12) {
             background: url('image12.jpg') no-repeat;
             width: 270px;
             height: 301px;
         }
-        &_image:nth-child(6):hover{
-            background: url('image10hover.jpg') no-repeat;
-            width: 270px;
-            height: 357px;
-        } 
-      
+    }
+    &__cta {
+        margin: 0 30px;
+        background: url('cta.jpg') no-repeat;
+        background-position: center;
+        width: 100%;
+        min-height: 201px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        &_text {
+            font-size: 20px;
+            font-family: "OpenSans";
+            color: rgb(255, 255, 255);
+            line-height: 1.25;
+        }
+        &_form {
+            margin-top: 30px;
+            &-button {
+                background: none;
+                min-width: 140px;
+                height: 37px;
+                font-size: 16px;
+                font-family: "OpenSans";
+                color: white;
+                border: 1px solid white;
+                border-radius: 16px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.team{
+    min-height: 770px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    &__wrapper {
+        background: rgb(243, 243, 243);
+        min-height: 770px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    &__title {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        min-height: 100px;
+        width: 450px;
+        &_name {
+            font-size: 20px;
+            font-family: "SourceSansPro";
+            color: rgb(51, 59, 70);
+        }
+        &_pr {
+            font-size: 14px;
+            font-family: "SourceSansPro";
+            color: rgb(129, 134, 142);
+        }
+    }
+    & .carousel{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 80%;
+        min-height: 365px;
+        &-indicators .active{
+            background: rgb(25, 189, 154);
+        }
+        &-indicators li{
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(25, 189, 154);
+            background: none;
+        }
+        &-inner{
+            width: 100%;
+            min-height: 365px;   
+        }
+        &-item{
+            width: 100%;
+            min-height: 365px;
+           
+        }
+        &-caption{
+            
+            width: 100%;
+            height: 435px;
+            display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+            position: static;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 0;
+            margin: 0;
+            &-about{
+                width: 100%;
+            height: 365px;
+            display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+                &-photo{
+                    background: url('veiper.jpg') no-repeat;
+                    width: 285px;
+                    height: 365px;
+                }
+                &-photo2{
+                    background: url('veiper2.jpg') no-repeat;
+                    width: 285px;
+                    height: 365px;
+                }
+                &-text{
+                    color: black;
+                    width: 400px;
+                    height: 365px;
+                    
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    align-items: flex-end;
+                    align-content: flex-end;
+                    &-name{
+                        
+                        font-size: 20px;
+                        font-family: "OpenSans";
+                        color: rgb(70, 70, 70);
+                        font-weight: bold;
+                    }
+                    &-profesion{
+                        
+                        font-size: 14px;
+                        font-family: "SourceSansPro";
+                        color: rgb(129, 134, 142);
+                        font-style: italic;
+                    }
+                    &-pr{
+                        margin: 35px 0;
+                        text-align: right;
+                        font-size: 14px;
+                        font-family: "OpenSans";
+                        color: rgb(129, 134, 142);
+                    }
+                    &-item{
+                        margin: 10px 0;
+                        width: 330px;
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: nowrap;
+                        justify-content: center;
+                        align-items: center;
+                        align-content: center;
+                        min-height: 30px;
+                        &-statistik{
+                            width: 330px;
+                            display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                        align-content: flex-start;
+                            &-mark{
+                                font-size: 16px;
+                                font-family: "SourceSansPro";
+                                color: rgb(129, 134, 142);
+                                text-transform: uppercase;
+                            }
+                            &-percentages{
+                                font-size: 16px;
+                                font-family: "SourceSansPro";
+                                color: rgb(129, 134, 142);
+                                text-transform: uppercase;
+                            }
+                        }  
+                        &-line1{
+                            width: 330px;
+                            height: 4px;
+                            background: linear-gradient(to right, #25bf9f 0%,#19bd9a 0%,#19bd9a 81%,#e1e4e9 81%,#e1e4e9 100%); 
+                        }
+                        &-line2{
+                            width: 330px;
+                            height: 4px;
+                            background: linear-gradient(to right, #19bd9a 0%,#19bd9a 60%,#e1e4e9 60%,#e1e4e9 100%);
+                        }
+                        &-line3{
+                            width: 330px;
+                            height: 4px;
+                        background: linear-gradient(to right, #19bd9a 0%,#19bd9a 79%,#e1e4e9 79%,#e1e4e9 100%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.teamcta{
+    min-height: 201px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    &__wrapper {
+        background: url('ctateam.jpg') no-repeat;
+        background-position:center;
+        background-size: cover;
+        min-height: 201px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;  
+    }
+    &__text {
+        font-size: 20px;
+        font-family: "OpenSans";
+        color: rgb(255, 255, 255);
+        line-height: 1.25;
+    }
+    &__form {
+        margin-top: 30px;
+        &_button {
+            background: none;
+            min-width: 140px;
+            height: 37px;
+            font-size: 16px;
+            font-family: "OpenSans";
+            color: white;
+            border: 1px solid white;
+            border-radius: 16px;
+            cursor: pointer;
+        }
+    }
+}
+.testimonials{
+    min-height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    &__wrapper {
+        background: rgb(243, 243, 243);
+        min-height: 650px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    &__title {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        min-height: 100px;
+        width: 450px;
+        &_name {
+            font-size: 20px;
+            font-family: "SourceSansPro";
+            color: rgb(51, 59, 70);
+        }
+        &_pr {
+            font-size: 14px;
+            font-family: "SourceSansPro";
+            color: rgb(129, 134, 142);
+        }
+    }
+    & .carousel{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 90%;
+        min-height: 210px;
+        &-indicators .active{
+            background: rgb(25, 189, 154);
+        }
+        &-indicators li{
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(25, 189, 154);
+            background: none;
+        }
+        &-inner{
+            width: 100%;
+            min-height: 210px;  
+        }
+        &-item{
+            width: 100%;
+            min-height: 210px;
+           
+        }
+        &-caption{
+            background: rgb(255, 255, 255);
+            width: 100%;
+            height: 210px;
+            display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+            position: static;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 0;
+            margin: 0;
+            &-about{
+                background: rgb(255, 255, 255);
+                width: 100%;
+                height: 210px;
+            display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+                &-photo{
+                    background: url('eyes.png') no-repeat;
+                    width: 130px;
+                    height: 130px;
+                }
+                &-photo2{
+                    background: url('fai.png') no-repeat;
+                    width: 130px;
+                    height: 130px;
+                }
+                &-photo3{
+                    background: url('gabri.png') no-repeat;
+                    width: 130px;
+                    height: 130px;
+                }
+                &-text{
+                    color: black;
+                    width: 700px;
+                    height: 150px;
+                    margin-left: 50px;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: flex-start;
+                    align-content: flex-start;
+                    &-prs{
+                        text-align: justify ;
+                        font-size: 16px;
+                        font-family: "OpenSans";
+                        color: rgb(129, 134, 142);
+                    }
+                    &-names{
+                        font-size: 16px;
+                        font-family: "OpenSans";
+                        color: rgb(25, 189, 154);
+                        font-weight: bold;
+                    }
+                    &-profesions{
+                        font-size: 16px;
+                        font-family: "OpenSans";
+                        color: black;
+                        line-height: 1.75;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.blog{
+    margin: 0 30px;
+    min-height: 693px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    &__wrapper {
+        background: url('blog.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height:  693px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    & .carousel{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 100%;
+        min-height: 693px;
+        &-indicators{
+            align-items:flex-end;
+            justify-content: center;
+            top: 10px;
+            flex-direction: column;
+            width: 80%;
+            
+           
+           
+        }
+        &-indicators .active{
+            background: white;
+        }
+        &-indicators li{
+            margin: 2px 0;
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            border: 1px solid white;
+            background: none;
+        }
+        &-inner{
+            width: 100%;
+            min-height: 693px;
+        }
+        &-item{
+            width: 100%;
+            min-height: 693px;
+           
+        }
+        &-caption{
+            
+            width: 100%;
+            min-height: 693px;
+            display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+            position: static;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 0;
+            margin: 0;
+            &-about{
+                width: 100%;
+            min-height: 693px;
+            display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        align-content: flex-start;
+                &-title{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    width: 460px;
+                    min-height: 150px;
+                    &-name{
+                        letter-spacing: 0.2em;
+                        font-size: 20px;
+                        font-family: "SourceSansPro";
+                        color: rgb(255, 255, 255);
+                    }
+    
+                    &-pr{
+                        text-align: left;
+                        font-size: 14px;
+                        font-family: "OpenSans";
+                        color: rgb(178, 179, 179);
+                    }
+                }
+                &-landingpages{
+                    margin: 0 70px;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    width: 45%;
+                    min-height: 400px;
+                    &-name{
+                        font-size: 20px;
+                        font-family: "OpenSans";
+                        color: rgb(225, 228, 233);
+                    }
+                    &-author{
+                        font-size: 14px;
+                        font-family: "SourceSansPro";
+                        color: rgb(129, 134, 142);
+                    }
+                    &-author span{
+                        color: rgb(25, 189, 154);
+                    }
+                    &-likes{
+                        padding: 15px 0;
+                        font-size: 14px;
+                        font-family: "SourceSansPro";
+                        color: rgb(70, 70, 70);
+                    }
+                    &-pr{
+                        margin: 45px 0;
+                        text-align: justify ;
+                        font-size: 14px;
+                        font-family: "OpenSans";
+                        color: rgb(129, 134, 142);
+                    }
+                    &-button{
+                        background: none;
+                        border: 1px solid rgb(129, 134, 142);
+                        border-radius: 16px;
+                        min-width: 140;
+                        height: 35px;
+                        font-size: 16px;
+                        font-family: "OpenSans";
+                        color: rgb(178, 179, 179);
+                        cursor: pointer;
+                    }
+                } 
+            }
+               
+        }
     }
 }
