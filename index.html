@@ -460,18 +460,20 @@
     <div class="header__wrapper">
         <div class="header">
             <div class="header__logo">BOUNCY</div>
-            <div class="header__menu">
-                <div class="header__menu_item"><a href="http://" class="header__menu_item-link">Hello</a></div>
-                <div class="header__menu_item"><a href="http://" class="header__menu_item-link">About</a></div>
-                <div class="header__menu_item"><a href="http://" class="header__menu_item-link">Services</a></div>
-                <div class="header__menu_item"><a href="http://" class="header__menu_item-link">Portfolio</a></div>
-                <div class="header__menu_item"><a href="http://" class="header__menu_item-link">Team</a></div>
-                <div class="header__menu_item"><a href="http://" class="header__menu_item-link">Blog</a></div>
-                <div class="header__menu_item"><a href="http://" class="header__menu_item-link">Contact</a></div>
+            <div class="header__menu" id="menu">
+                <div class="header__menu_item"><a href="#" class="header__menu_item-link">Hello</a></div>
+                <div class="header__menu_item"><a href="#details" class="header__menu_item-link">About</a></div>
+                <div class="header__menu_item"><a href="#services" class="header__menu_item-link">Services</a></div>
+                <div class="header__menu_item"><a href="#portfolio" class="header__menu_item-link">Portfolio</a></div>
+                <div class="header__menu_item"><a href="#team" class="header__menu_item-link">Team</a></div>
+                <div class="header__menu_item"><a href="#blog" class="header__menu_item-link">Blog</a></div>
+                <div class="header__menu_item"><a href="#contact" class="header__menu_item-link">Contact</a></div>
             </div>
         </div>
     </div>
+  
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="banner.jpg" alt="Первый слайд">
@@ -503,7 +505,10 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+    
     </div>
+
+    
     <div class="aboutus__wrapper">
         <div class="aboutus">
             <div class="aboutus__text">
@@ -517,8 +522,8 @@
             <div class="aboutus__phone"><img src="ipad.png" alt="" srcset="" width="215" height="350"></div>
         </div>
     </div>
-    <div class="details__wrapper">
-        <div class="details">
+    <div class="details__wrapper" ><a id="details">
+        <div class="details" >
             <div class="details__title">
                 <div class="details__title_name">DETAILS ABOUT BOUNCY</div>
                 <div class="details__title_pr">At vero eos et accusamus et iustro odio dignissimos ducimus qui blandits praesentium voluptatum</div>
@@ -529,8 +534,16 @@
 
                     </div>
                 </div>
-                <div class="details__icon_mouse"></div>
-                <div class="details__icon_lump"></div>
+                <div class="details__icon_mouse">
+                    <div class="details__icon_mouse-background">
+
+                    </div>
+                </div>
+                <div class="details__icon_lump">
+                    <div class="details__icon_lump-background">
+
+                    </div>
+                </div>
             </div>
             <div class="details__text">
                 <div class="details__text_item">
@@ -544,6 +557,7 @@
                 </div>
             </div>
         </div>
+        </a>
     </div>
     <div class="projects__wrapper">
         <div class="projects">
@@ -568,6 +582,7 @@
             </div>
         </div>
     </div>
+    <a id="services">
     <div class="services__wrapper">
         <div class="services">
             <div class="services__title">
@@ -674,8 +689,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
+    </a>
     <div class="quotes__wrapper">
         <div class="quotes">
             <div class="quotes__text">
@@ -687,7 +703,7 @@
             <div class="quotes__photo"></div>
         </div>
     </div>
-    <div class="portfolio__wrapper">
+    <div class="portfolio__wrapper"><a id="portfolio">
         <div class="portfolio">
             <div class="portfolio__title">
                 <div class="portfolio__title_name"> THE PORTFOLIO</div>
@@ -867,7 +883,9 @@
                 </div>
             </div>
         </div>
+        </a>
     </div>
+    <a id="team">
     <div class="team__wrapper">
         <div class="team">
             <div class="team__title">
@@ -985,6 +1003,7 @@
             </div>
         </div>
     </div>
+    </a>
     <div class="teamcta__wrapper">
         <div class="teamcta">
             <div class="teamcta__text">Already Loved Us? Let's talk!</div>
@@ -1049,7 +1068,8 @@
                 </div>
             </div>
     </div>
-    <div class="blog__wrapper">
+    
+    <div class="blog__wrapper"><a id="blog">
         <div class="blog">
             <div id="carousel" class="blog carousel slide" data-ride="carousel">
                 <ol class=" carousel-indicators">
@@ -1116,11 +1136,13 @@
                                         <div class="carousel-caption-about-title-pr">At vero eos et accusamus et iustro odio dignissimos ducimus qui blandits praesentium voluptatum</div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
+            </div> 
+        </div> 
+        </a>  
     </div>
     <div class="price__wrapper">
         <div class="price">
@@ -1204,6 +1226,7 @@
             </div>
         </div>
     </div>
+    <a id="contact">
     <div class="contact__wrapper">
         <div class="contact">
             <div class="contact__title">
@@ -1234,7 +1257,9 @@
                 </div>
             </div>
         </div>
+        
     </div>
+    </a>
     <div class="form__wrapper">
         <div class="form">
             <input type="text" name="" id="" placeholder="Your name" class="form__item">
@@ -1273,6 +1298,17 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+           $("#menu").on("click","a", function (event) {
+               event.preventDefault();
+               var id  = $(this).attr('href'),
+                   top = $(id).offset().top;
+               $('body,html').animate({scrollTop: top}, 1500);
+           });
+       });
+       </script>    
 </body>
 
 </html>

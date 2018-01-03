@@ -1,4 +1,5 @@
 .header {
+    z-index: 20;
     margin: 0 30px;
     min-height: 112px;
     width: 100%;
@@ -210,23 +211,41 @@
             }
         }
         &_mouse {
-            background: url('mouse.png') no-repeat;
+            background: url('mouse1.png') no-repeat rgb(129, 134, 142) 50% 40%;
             width: 53px;
             height: 53px;
+            border-radius: 28px;
+            &-background{
+                opacity: 0;
+                width: 53px;
+                height: 53px;
+                border-radius: 28px;
+                background: url('mouse1.png') no-repeat rgb(25, 189, 154) 50% 40%;
+                
+            }
         }
         &_lump {
-            background: url('lump.png') no-repeat;
+            background: url('lump1.png') no-repeat rgb(129, 134, 142) 50% 50%;
             width: 53px;
             height: 53px;
+            border-radius: 28px;
+            &-background{
+                opacity: 0;
+                width: 53px;
+                height: 53px;
+                border-radius: 28px;
+                background: url('lump1.png') no-repeat rgb(25, 189, 154) 50% 50%;
+                
+            }
         }
         &_heart:hover &_heart-background{
             opacity: 1;
         }
-        &_mouse:hover {
-            background: url('mousehover.png') no-repeat;
+        &_mouse:hover &_mouse-background{
+            opacity: 1;
         }
-        &_lump:hover {
-            background: url('lumphover.png') no-repeat;
+        &_lump:hover &_lump-background{
+            opacity: 1;
         }
     }
     &__text {
@@ -513,51 +532,59 @@
         min-height: 300px;
     }
     &__menu .list-group-item {
-        background: url('screwdriver.png') no-repeat;
+        background: url('screwdriver1.png') no-repeat rgb(129, 134, 142) 50% 50%;
         height: 53px;
         width: 53px;
+        border-radius: 27px;
         border: none;
     }
     &__menu .list-group-item:nth-child(2) {
-        background: url('build.png') no-repeat;
+        background: url('build1.png') no-repeat rgb(129, 134, 142) 50% 50%;
         height: 53px;
         width: 53px;
+        border-radius: 27px;
         border: none;
     }
     &__menu .list-group-item:nth-child(3) {
-        background: url('game.png') no-repeat;
+        background: url('game1.png') no-repeat  rgb(129, 134, 142) 50% 40%;
         height: 53px;
         width: 53px;
+        border-radius: 27px;
         border: none;
     }
     &__menu .list-group-item:nth-child(4) {
-        background: url('socket.png') no-repeat;
+        background: url('socket1.png') no-repeat  rgb(129, 134, 142) 55% 50%;
         height: 53px;
         width: 53px;
+        border-radius: 27px;
         border: none;
     }
     &__menu .list-group-item.active {
-        background: url('screwdriverhover.png') no-repeat;
+        background: url('screwdriver1.png') no-repeat  rgb(25, 189, 154) 50% 50%;
         height: 53px;
         width: 53px;
+        border-radius: 27px;
         border: none;
     }
     &__menu .list-group-item.active:nth-child(2) {
-        background: url('buildhover.png') no-repeat;
+        background: url('build1.png') no-repeat  rgb(25, 189, 154) 50% 50%;
         height: 53px;
         width: 53px;
+        border-radius: 27px;
         border: none;
     }
     &__menu .list-group-item.active:nth-child(3) {
-        background: url('gamehover.png') no-repeat;
+        background: url('game1.png') no-repeat rgb(25, 189, 154) 50% 40%;
         height: 53px;
         width: 53px;
+        border-radius: 27px;
         border: none;
     }
     &__menu .list-group-item.active:nth-child(4) {
-        background: url('sockethover.png') no-repeat;
+        background: url('socket1.png') no-repeat rgb(25, 189, 154) 55% 50%;
         height: 53px;
         width: 53px;
+        border-radius: 27px;
         border: none;
     }
 }
