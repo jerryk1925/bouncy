@@ -69,6 +69,7 @@
 }
 
 .carousel {
+  margin: 0 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -101,6 +102,7 @@
 }
 
 .aboutus {
+  margin: 0 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -159,6 +161,7 @@
 }
 
 .details {
+  margin: 0 30px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -283,6 +286,7 @@
 }
 
 .projects {
+  margin: 0 30px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -412,6 +416,7 @@
 }
 
 .services {
+  margin: 0 30px;
   min-height: 640px;
   width: 100%;
   display: flex;
@@ -615,6 +620,7 @@
 }
 
 .quotes {
+  margin: 0 30px;
   position: relative;
   margin: 0 30px;
   min-height: 392px;
@@ -687,6 +693,7 @@
 }
 
 .portfolio {
+  margin: 0 30px;
   min-height: 1635px;
   width: 100%;
   display: flex;
@@ -1143,6 +1150,7 @@
 }
 
 .teamcta {
+  margin: 0 30px;
   min-height: 201px;
   width: 100%;
   display: flex;
@@ -1191,6 +1199,7 @@
 }
 
 .testimonials {
+  margin: 0 30px;
   min-height: 650px;
   width: 100%;
   display: flex;
@@ -1527,6 +1536,7 @@
 }
 
 .price {
+  margin: 0 30px;
   min-height: 640px;
   width: 100%;
   display: flex;
@@ -1672,6 +1682,7 @@
 }
 
 .subscribe {
+  margin: 0 30px;
   min-height: 378px;
   width: 100%;
   display: flex;
@@ -1753,6 +1764,7 @@
 }
 
 .contact {
+  margin: 0 30px;
   min-height: 610px;
   width: 100%;
   display: flex;
@@ -1862,6 +1874,7 @@
 }
 
 .form {
+  margin: 0 30px;
   min-height: 340px;
   width: 940px;
   display: flex;
@@ -1908,6 +1921,7 @@
 }
 
 .map {
+  margin: 0 30px;
   min-height: 429px;
   width: 100%;
   display: flex;
@@ -1965,4 +1979,46 @@
   width: 18px;
   height: 18px;
   background: url("elipse.png") no-repeat;
+}
+
+.footer {
+  margin: 0 30px;
+  min-height: 290px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.footer__wrapper {
+  background: white;
+  min-height: 290px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.footer__name {
+  font-family: 'Bigshot One', cursive;
+  font-size: 25px;
+  color: #323a45;
+  font-weight: bold;
+}
+
+.footer__copy {
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #81868e;
+}
+
+.footer__icon {
+  padding: 20px 0;
 }
