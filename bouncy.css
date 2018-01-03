@@ -1874,7 +1874,6 @@
 }
 
 .form {
-  margin: 0 30px;
   min-height: 340px;
   width: 940px;
   display: flex;
@@ -1921,7 +1920,6 @@
 }
 
 .map {
-  margin: 0 30px;
   min-height: 429px;
   width: 100%;
   display: flex;
