@@ -218,9 +218,18 @@
 }
 
 .details__icon_heart {
-  background: url("heart.png") no-repeat;
+  background: url("heart2.png") no-repeat #81868e 50% 50%;
   width: 53px;
   height: 53px;
+  border-radius: 28px;
+}
+
+.details__icon_heart-background {
+  opacity: 0;
+  width: 53px;
+  height: 53px;
+  border-radius: 28px;
+  background: url("heart2.png") no-repeat #19bd9a 50% 50%;
 }
 
 .details__icon_mouse {
@@ -235,8 +244,8 @@
   height: 53px;
 }
 
-.details__icon_heart:hover {
-  background: url("hearthover.png") no-repeat;
+.details__icon_heart:hover .details__icon_heart-background {
+  opacity: 1;
 }
 
 .details__icon_mouse:hover {
