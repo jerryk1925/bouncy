@@ -360,10 +360,11 @@
 }
 
 .details {
+  margin: 90px 30px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   align-content: center;
   min-height: 615px;
@@ -617,7 +618,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   align-content: center;
   min-height: 115px;
@@ -660,12 +661,13 @@
 }
 
 .services {
+  margin: 90px 30px;
   min-height: 640px;
   width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   align-content: center;
 }
@@ -706,7 +708,7 @@
 }
 
 .services__menu {
-  width: 80%;
+  width: 90%;
   min-height: 300px;
   display: flex;
   align-items: center;
@@ -723,9 +725,10 @@
   align-content: center;
 }
 
-.services__menu .col-4 {
-  width: 53px !important;
+.services__menu .col-1 {
+  width: 91px !important;
   min-height: 300px;
+  flex: none;
 }
 
 .services__menu .col-123 {
@@ -756,14 +759,14 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   align-content: flex-start;
 }
 
 .services__menu .tab-pane-text-name {
   font-size: 20px;
-  font-family: "SourceSansPro";
+  font-family: "Source Sans Pro";
   color: #333b46;
   width: 400px;
 }
@@ -879,7 +882,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   align-content: center;
 }
@@ -899,22 +902,22 @@
 }
 
 .quotes__text {
-  width: 51%;
+  width: 100%;
 }
 
 .quotes__text_caption {
   font-size: 20px;
-  font-family: "SourceSansPro";
+  font-family: "Source Sans Pro";
   color: #f3f3f3;
 }
 
 .quotes__text_about {
+  width: 40%;
   margin-top: 50px;
   margin-bottom: 30px;
   font-size: 16px;
   font-family: "OpenSans";
   color: #b2b3b3;
-  width: 81%;
 }
 
 .quotes__text_name {
@@ -1193,12 +1196,13 @@
 }
 
 .team {
+  margin: 80px 0;
   min-height: 770px;
   width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   align-content: center;
 }
@@ -1642,9 +1646,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  align-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   width: 100%;
   min-height: 693px;
 }
@@ -1843,12 +1847,13 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   align-content: center;
 }
 
 .price__plans_item {
+  margin: 0 10px;
   position: relative;
   width: 235px;
   min-height: 302px;
@@ -2071,12 +2076,13 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .contact__list_item {
+  margin: 0 10px;
   width: 287px;
   min-height: 272px;
 }
@@ -2125,6 +2131,7 @@
   font-family: "OpenSans";
   color: #81868e;
   text-align: center;
+  min-height: 20px;
 }
 
 .form {

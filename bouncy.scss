@@ -327,11 +327,11 @@
 }
 
 .details {
-   
+    margin: 90px 30px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     min-height: 615px;
@@ -561,7 +561,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     align-content: center;
     min-height: 115px;
@@ -600,13 +600,13 @@
 }
 
 .services {
-    
+    margin: 90px 30px;
     min-height: 640px;
     width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     &__wrapper {
@@ -641,7 +641,7 @@
         }
     }
     &__menu {
-        width: 80%;
+        width: 90%;
         min-height: 300px;
         display: flex;
         align-items: center;
@@ -657,9 +657,11 @@
         justify-content: center;
         align-content: center;
     }
-    &__menu .col-4 {
-        width: 53px !important;
+    &__menu .col-1 {
+        width: 91px !important;
         min-height: 300px;
+        flex: none;
+        
     }
     &__menu .col-123 {
         margin-left: 10px;
@@ -686,13 +688,13 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
         align-items: flex-start;
         align-content: flex-start;
     }
     &__menu .tab-pane-text-name {
         font-size: 20px;
-        font-family: "SourceSansPro";
+        font-family: "Source Sans Pro";
         color: rgb(51, 59, 70);
         width: 400px;
     }
@@ -797,7 +799,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     align-content: center;
     &__wrapper {
@@ -814,19 +816,20 @@
         align-content: center;
     }
     &__text {
-        width: 51%;
+        width: 100%;
         &_caption {
             font-size: 20px;
-            font-family: "SourceSansPro";
+            font-family: "Source Sans Pro";
             color: rgb(243, 243, 243);
         }
         &_about {
+            width: 40%;
             margin-top: 50px;
             margin-bottom: 30px;
             font-size: 16px;
             font-family: "OpenSans";
             color: rgb(178, 179, 179);
-            width: 81%;
+           
         }
         &_name {
             font-size: 14px;
@@ -1071,12 +1074,13 @@
 }
 
 .team {
+    margin: 80px 0;
     min-height: 770px;
     width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     align-content: center;
     &__wrapper {
@@ -1471,9 +1475,9 @@
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: flex-start;
-        align-content: flex-start;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
         width: 100%;
         min-height: 693px;
         &-indicators {
@@ -1651,10 +1655,11 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         align-content: center;
         &_item{
+            margin: 0 10px;
             position: relative;
             width: 235px;
             min-height: 302px;
@@ -1861,10 +1866,11 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: flex-start;
-        align-content: space-between;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
         &_item{
+            margin: 0 10px;
             width: 287px;
             min-height: 272px;
             &_email{
@@ -1905,6 +1911,7 @@
                     font-family: "OpenSans";
                     color: rgb(129, 134, 142);
                     text-align: center;
+                    min-height: 20px;
                 }
             }
         }
